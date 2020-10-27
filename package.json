@@ -1,0 +1,19 @@
+{
+    "name": "week9project",
+    "version": "0.0.1",
+    "description": "Solution to the Week 7 project",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js"
+    },
+    "author": "Nicholas Minnella",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "express": "^4.17.1",
+        "flatted": "^3.1.0",
+        "mongoose": "^5.10.11",
+        "request": "^2.88.2"
+    }
+}
