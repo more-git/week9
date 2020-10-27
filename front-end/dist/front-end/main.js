@@ -392,11 +392,9 @@ class TodoListComponent {
         todo.editing = true;
     }
     deleteTodo(id) {
-        console.log(id);
         this.todos = this.todos.filter(todo => todo.id != id);
     }
     deleteItem(title) {
-        console.log(title);
         this.todos = this.todos.filter(todo => todo.title !== title);
     }
     remaining() {
